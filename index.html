@@ -725,13 +725,73 @@
 
         <!-- ================= RESEARCH & PUBLICATIONS PAGE ================= -->
         <div id="publications" class="page-view">
-            <h2 class="font-display text-3xl md:text-5xl font-bold mb-10 text-center text-textMain">Research <span class="text-gisPink">Papers & Conferences</span></h2>
+            <h2 class="font-display text-3xl md:text-5xl font-bold mb-10 text-center text-textMain">Papers & <span class="text-gisPink">Conferences</span></h2>
             
-            <div class="max-w-4xl mx-auto space-y-8">
-                
-                <!-- Conferences Section -->
+            <div class="max-w-4xl mx-auto space-y-12">
+                <!-- 1. Book Review (Highlighted) -->
+                <div class="relative">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-gisGreen via-gisBlue to-gisPurple opacity-30 rounded-2xl blur"></div>
+                    <div class="glass-panel p-8 rounded-2xl relative border-l-4 border-gisGreen">
+                        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gisGreen/10 text-gisGreen font-bold text-xs uppercase mb-4">
+                            <i data-lucide="book" class="w-3 h-3"></i> Book Review
+                        </span>
+                        <h4 class="text-xl font-bold text-textMain mb-2">Wetlands Ecology: Eco-Biological Uniqueness of a Ramsar Site</h4>
+                        <p class="text-textMuted text-sm italic mb-4">East Kolkata Wetlands, India</p>
+                        
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                            <p class="text-sm text-textMuted font-medium leading-relaxed">
+                                <strong>Sahoo, B. (2025).</strong> Review of <em>Wetlands Ecology: Eco-Biological Uniqueness of a Ramsar Site (East Kolkata Wetlands, India)</em> by Susanta Kumar Chakraborty, Poulomi Sanyal, and Ratnadeep Ray. Cham, Switzerland: Springer Nature Switzerland, 2023. xxii and 511 pp. <br/>
+                                <span class="text-xs text-textMuted mt-2 block">ISBN: 978-3-031-09252-7 (Paper/Cloth) | 978-3-031-09253-4 (Electronic)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2. Journal Papers -->
                 <div>
-                    <h3 class="text-xl font-bold text-textMuted uppercase tracking-wider mb-4 border-b border-gray-200 pb-2">Conferences & Workshops</h3>
+                    <h3 class="text-xl font-bold text-textMuted uppercase tracking-wider mb-6 border-b border-gray-200 pb-2 flex items-center gap-2">
+                        <i data-lucide="file-text" class="w-5 h-5"></i> Journal Papers
+                    </h3>
+                    <div class="space-y-4">
+                         <div class="group glass-panel p-8 rounded-2xl hover:bg-white hover:shadow-lg transition-all cursor-pointer border-l-4 border-gisBlue">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <span class="text-gisBlue font-mono text-xs font-bold mb-2 block uppercase tracking-wide">2023 • Master's Thesis (LSU)</span>
+                                    <h4 class="text-xl font-bold text-textMain group-hover:text-gisBlue transition-colors">20-year Assessment of Total Suspended Sediment (TSS) Variability</h4>
+                                    <p class="text-textMuted text-sm mt-3 max-w-2xl font-medium">
+                                        Studied TSS variability in Barataria Bay using MODIS ocean color data and adaptive semi-analytical/neural network algorithms.
+                                    </p>
+                                </div>
+                                <div class="p-2 rounded-full bg-gray-50 group-hover:bg-gisBlue/10 transition-colors">
+                                    <i data-lucide="book-open" class="text-textMuted group-hover:text-gisBlue w-5 h-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group glass-panel p-8 rounded-2xl hover:bg-white hover:shadow-lg transition-all cursor-pointer border-l-4 border-gisPurple">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <span class="text-gisPurple font-mono text-xs font-bold mb-2 block uppercase tracking-wide">2020 • arXiv preprint</span>
+                                    <h4 class="text-xl font-bold text-textMain group-hover:text-gisPurple transition-colors">Analysis of COVID19 Outbreak in India using SEIR model</h4>
+                                    <p class="text-textMuted text-sm mt-3 max-w-2xl font-medium">
+                                        Authors: Kishore, R., <strong>Sahoo, B.</strong>, Swain, D., & Sahu, K. K.
+                                    </p>
+                                </div>
+                                <div class="p-2 rounded-full bg-gray-50 group-hover:bg-gisPurple/10 transition-colors">
+                                    <i data-lucide="external-link" class="text-textMuted group-hover:text-gisPurple w-5 h-5"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+
+                
+
+                <!-- 3. Conferences -->
+                <div>
+                    <h3 class="text-xl font-bold text-textMuted uppercase tracking-wider mb-6 border-b border-gray-200 pb-2 flex items-center gap-2">
+                        <i data-lucide="mic-2" class="w-5 h-5"></i> Conferences & Workshops
+                    </h3>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <!-- NEW 2025 Entry -->
                         <div class="glass-panel p-6 rounded-xl hover:bg-white transition-all border-l-4 border-gisPink">
@@ -769,41 +829,6 @@
                     </div>
                 </div>
 
-                <!-- Papers Section -->
-                <div>
-                    <h3 class="text-xl font-bold text-textMuted uppercase tracking-wider mb-4 border-b border-gray-200 pb-2">Selected Publications</h3>
-                    <div class="space-y-4">
-                        <div class="group glass-panel p-8 rounded-2xl hover:bg-white hover:shadow-lg transition-all cursor-pointer border-l-4 border-gisPurple">
-                            <div class="flex justify-between items-start">
-                                <div>
-                                    <span class="text-gisPurple font-mono text-xs font-bold mb-2 block uppercase tracking-wide">2020 • arXiv preprint</span>
-                                    <h4 class="text-xl font-bold text-textMain group-hover:text-gisPurple transition-colors">Analysis of COVID19 Outbreak in India using SEIR model</h4>
-                                    <p class="text-textMuted text-sm mt-3 max-w-2xl font-medium">
-                                        Authors: Kishore, R., <strong>Sahoo, B.</strong>, Swain, D., & Sahu, K. K.
-                                    </p>
-                                </div>
-                                <div class="p-2 rounded-full bg-gray-50 group-hover:bg-gisPurple/10 transition-colors">
-                                    <i data-lucide="external-link" class="text-textMuted group-hover:text-gisPurple w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="group glass-panel p-8 rounded-2xl hover:bg-white hover:shadow-lg transition-all cursor-pointer border-l-4 border-gisBlue">
-                            <div class="flex justify-between items-start">
-                                <div>
-                                    <span class="text-gisBlue font-mono text-xs font-bold mb-2 block uppercase tracking-wide">2023 • Master's Thesis (LSU)</span>
-                                    <h4 class="text-xl font-bold text-textMain group-hover:text-gisBlue transition-colors">20-year Assessment of Total Suspended Sediment (TSS) Variability</h4>
-                                    <p class="text-textMuted text-sm mt-3 max-w-2xl font-medium">
-                                        Studied TSS variability in Barataria Bay using MODIS ocean color data and adaptive semi-analytical/neural network algorithms.
-                                    </p>
-                                </div>
-                                <div class="p-2 rounded-full bg-gray-50 group-hover:bg-gisBlue/10 transition-colors">
-                                    <i data-lucide="book-open" class="text-textMuted group-hover:text-gisBlue w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             
             <div class="text-center mt-12">
@@ -812,6 +837,7 @@
                 </a>
             </div>
         </div>
+
 
         <!-- ================= PHOTOGRAPHY PAGE ================= -->
         <div id="photography" class="page-view">
